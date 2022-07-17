@@ -18,7 +18,9 @@ namespace Domain.Entities
 
         public string password { get; set; }
 
-        public string department { get; set; }
+     
+
+        public admin_departments departments { get; set; }
 
 
         
